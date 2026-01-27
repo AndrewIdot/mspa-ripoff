@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'cour';
+    src: url("../../assets/fonts/CourierNew.ttf");
+}
+
+@font-face {
+    font-family: 'verd';
+    src: url("../../assets/fonts/Verdana.ttf");
+}
+
+:root {
+	--bg-one: #eeeeee;
+	--bg-two: #c6c6c6;
+	--bg-three: #535353;
+	font-family: "cour", monospace;
+    --font-serif:"Adobe Garamond Pro", serif;
+    --color-john:#0715cd;
+    --color-rose:#b536da;
+    --color-dave:#e00707;
+    --color-jade:#4ac925;
+    --color-jane:#00d5f2;
+    --color-jake:#1f9400;
+    --color-dirk:#f2a400;
+    --color-autoresponder:#e00707;
+    --color-roxy:#ff6ff2;
+	--color-karkat:#626262;
+    --color-aradia-damara:#a10000;
+    --color-tavros-rufioh:#a16000;
+    --color-sollux-mituna:#a1a100;
+    --color-nepeta-meulin:#416600;
+    --color-kanaya-porrim:#008141;
+    --color-terezi-latula:#008282;
+    --color-vriska-aranea:#005682;
+    --color-equius-horuss-aradiabot:#000056;
+    --color-gamzee-kurloz:#2b0057;
+    --color-eridan-cronus:#6a006a;
+    --color-feferi-meenah:#77003c;
+    --color-kankri:red;
+    --color-cherub:#0b4100;
+    --color-cherub-red:red;
+    --color-cherub-green:#2ed73a;
+    --color-caliborn:#323232;
+	--color-calliope:#929292;
+	
+	/* custom start */
+	
+	--color-angela: #CFC0F7;
+	
+	/*
+	
+    --color-ruthie:#a10000;
+    --color-recidivousgainsayer:#a10000;
+    --color-alfonz:#416600;
+    --color-swifer:#078446;
+    --color-cliper:#078446;
+    --color-motter:#000056;
+    --color-caliborn-felt:#2ed73a;
+    --color-caliborn-felt-epilogues:#009c68;
+    --color-caliborn-red:red;
+    --color-calliope-epilogues:#a1a3a6;
+    --color-calliope-alt:red;
+    --color-calliope-al:red;
+    --color-calliope-red:red;
+    --color-calliope-green:#2ed73a;
+    --color-lord-english:#2ed73a;
+    --color-lord-english-dark-red:#950015;
+    --color-lord-english-red:#df0000;
+    --color-lord-english-orange:#ff6000;
+    --color-lord-english-yellow:#ffea00;
+    --color-lord-english-green:#008140;
+    --color-lord-english-blue:#4040fd;
+    --color-lord-english-purple:#a357ff;
+    --color-doc-scratch:#fff;
+    --color-itchy:#ffea00;
+    --color-doze:#4040fd;
+    --color-trace:#df0000;
+    --color-clover:#a357ff;
+    --color-fin:#ff6000;
+    --color-die:#008140;
+    --color-crowbar:#950015;
+    --color-snowman:#000;
+    --color-stitch:#ffea00;
+    --color-sawbuck:#4040fd;
+    --color-matchsticks:#df0000;
+    --color-eggs:#a357ff;
+    --color-biscuits:#ff6000;
+    --color-quarters:#008140;
+    --color-cans:#950015;
+    --color-harlequinsprite:#00d5f2;
+    --color-nannasprite:#00d5f2;
+    --color-jaspersprite:#f141ef;
+    --color-crowsprite:#f2a400;
+    --color-calsprite:#f2a400;
+    --color-davesprite:#f2a400;
+    --color-becsprite:#1f9400;
+    --color-jadesprite:#1f9400;
+    --color-tavrisprite:#0715cd;
+    --color-tavrosprite:#0715cd;
+    --color-gcatavrosprite:#0715cd;
+    --color-fefetasprite:#b536da;
+    --color-rosesprite:#b536da;
+    --color-jasprosesprite:#b536da;
+    --color-jasprosesprite-prefix:#f141ef;
+    --color-arquiusprite:#e00707;
+    --color-erisolsprite:#4ac925;
+    --color-nepetasprite:#4ac925;
+    --color-davepetasprite:#f2a400;
+    --color-davepetasprite-prefix:#4ac925;
+    --color-frogsprite:#a10000;
+    --color-aradiasprite:#a10000;
+    --color-tinkersprite:#a16000;
+    --color-bicyclopsprite:#a1a100;
+    --color-crabsprite:#626262;
+    --color-pouncesprite:#416600;
+    --color-mothersprite:#008141;
+    --color-dragonsprite:#008282;
+    --color-spidersprite:#005682;
+    --color-aurthoursprite:#000056;
+    --color-goatsprite:#2b0057;
+    --color-seahorsesprite:#6a006a;
+    --color-glbgolybsprite:#77003c; */
+}
+
+body {
+	background-color: var(--bg-three);
+}
+
+.awesometainer {
+	background-color: var(--bg-two);
+	max-width: 950px;
+	margin: auto;
+}
+
+.pagename {
+	background-color: var(--bg-one);
+	max-width: 650px;
+	min-height: 62px;
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+.pagecontent {
+	background-color: var(--bg-one);
+	max-width: 650px;
+	margin: auto;
+}
+
+.pagecontent font {
+	font-style: normal;
+	font-family: "verd", "Verdana", sans-serif;
+}
+
+.superbonercontainer {
+    max-width: 600px;
+    align-content: center;
+	margin: auto;
+}
+
+.pesterlog {
+	text-align: left;
+}
+
+.pesterlog div {
+	align-items: center;
+}
