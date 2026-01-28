@@ -44,7 +44,7 @@
 	
 	/* custom start */
 	
-	--color-angela: #CFC0F7;
+	--color-angela: #926EF4;
 	
 	/*
 	
@@ -135,7 +135,8 @@ body {
 	background-color: var(--bg-one);
 	max-width: 650px;
 	min-height: 62px;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 	font-weight: bold;
 }
@@ -146,21 +147,35 @@ body {
 	margin: auto;
 }
 
-.pagecontent font {
-	font-style: normal;
-	font-family: "verd", "Verdana", sans-serif;
-}
-
 .superbonercontainer {
     max-width: 600px;
     align-content: center;
 	margin: auto;
 }
 
-.pesterlog {
+.superbonercontainer .textttt {
+	text-align: center;
+}
+
+.pagecontent font {
+	font-style: normal;
+	font-family: "verd", "Verdana", sans-serif;
 	text-align: left;
 }
 
-.pesterlog div {
-	align-items: center;
+.pesterlog {
+	text-align: center;
+}
+
+.scaryhidden {
+	display: none;
+}
+
+.pesterlogtext {
+	font-weight: bold; 
+	font-family: courier, monospace;
+	color:#000000;
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
 }
