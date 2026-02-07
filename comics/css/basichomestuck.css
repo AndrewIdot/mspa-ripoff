@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: 'ass';
+    src: url("../../assets/fonts/CourierNew1.ttf");
+}
+
+@font-face {
     font-family: 'verd';
     src: url("../../assets/fonts/Verdana.ttf");
 }
@@ -164,9 +169,13 @@ body {
 
 .pagename font {
 	font-weight: bold; 
-	font-family: "cour", courier, monospace; 
+	font-family: "ass", courier, monospace; 
 	color:#000000;
 	line-height: 1;
+}
+
+.footer {
+	font-family: "ass", courier, monospace; 
 }
 
 .pagecontent font {
