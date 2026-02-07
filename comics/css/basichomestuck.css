@@ -128,33 +128,45 @@ body {
 .awesometainer {
 	background-color: var(--bg-two);
 	max-width: 950px;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .pagename {
 	background-color: var(--bg-one);
 	max-width: 650px;
-	min-height: 62px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 4px;
 	text-align: center;
 	font-weight: bold;
+	min-height: 62px;
 }
 
 .pagecontent {
 	background-color: var(--bg-one);
 	max-width: 650px;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .superbonercontainer {
     max-width: 600px;
     align-content: center;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
 }
 
 .superbonercontainer .textttt {
 	text-align: center;
+}
+
+.pagename font {
+	font-weight: bold; 
+	font-family: "cour", courier, monospace; 
+	color:#000000;
+	line-height: 1;
 }
 
 .pagecontent font {
@@ -179,3 +191,30 @@ body {
 	margin-left: 10px;
 	margin-right: 10px;
 }
+
+.pesterlogimg {
+	align-items: auto;
+}
+
+.pesterlogimg img {
+	max-width: 550px;
+	max-height: 150px;
+}
+
+
+.topnav {
+	width: 950px;
+	max-height: 17px;
+	font-size: 16px;
+	font-family: "Arial", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: underline;
+	padding-bottom: 15px;
+	white-space: nowrap;
+	text-align: center;
+}
+
+.topnav a { color: #FFFFFF; text-decoration:underline; }
+.topnav a:visited { color: #FFFFFF; text-decoration:underline;}
+.topnav a:hover { color: #FFFFFF;}
