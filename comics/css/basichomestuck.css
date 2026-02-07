@@ -209,7 +209,6 @@ body {
 	font-family: "Arial", sans-serif;
 	margin-left: auto;
 	margin-right: auto;
-	text-decoration: underline;
 	padding-bottom: 15px;
 	white-space: nowrap;
 	text-align: center;
@@ -217,4 +216,4 @@ body {
 
 .topnav a { color: #FFFFFF; text-decoration:underline; }
 .topnav a:visited { color: #FFFFFF; text-decoration:underline;}
-.topnav a:hover { color: #FFFFFF;}
+.topnav a:hover { color: #FFFFFF; text-decoration: underline;}
