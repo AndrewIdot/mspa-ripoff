@@ -310,3 +310,7 @@ table, tbody, tfoot, thead, tr, th, td {
 	background-position: top center;
 	height: 173px;
 }
+
+.textwidget a img {
+	max-width: 240px;
+}
