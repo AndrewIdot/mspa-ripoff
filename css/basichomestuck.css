@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'cour';
-    src: url("../../assets/fonts/CourierNew.ttf");
+    src: url("../assets/fonts/CourierNew.ttf");
 }
 
 @font-face {
     font-family: 'ass';
-    src: url("../../assets/fonts/CourierNew1.ttf");
+    src: url("../assets/fonts/CourierNew1.ttf");
 }
 
 @font-face {
     font-family: 'verd';
-    src: url("../../assets/fonts/Verdana.ttf");
+    src: url("../assets/fonts/Verdana.ttf");
 }
 
 :root {
