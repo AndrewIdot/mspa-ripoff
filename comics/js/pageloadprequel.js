@@ -23,21 +23,6 @@ if (p) {
 	}
 }
 
-removeElementsByClass("scaryhidden");
-
-var yourElement = document.getElementById('previous');
-yourElement.setAttribute('href', '?p=' + (p - 1));
-
-var yourElementp = document.getElementById('next');
-yourElementp.setAttribute('href', '?p=' + (p + 1));
-
-var yourElementp1 = document.getElementById('next1');
-yourElementp1.setAttribute('href', '?p=' + (p + 1));
-
-if (p == 1) {
-	removeElementsByClass("previous");
-}
-
 const logocount = 9;
 const dumbbullshit = Math.floor(Math.random() * logocount) + 1;
 document.getElementById('header-container').style.backgroundImage = `url('images/prequel/website/header${dumbbullshit}.jpg')`;
@@ -50,3 +35,22 @@ function skinningmydick(name) {
 
 const saved = localStorage.getItem("skin");
 if (saved) skinningmydick(saved);
+
+if (p < 0) {
+	removeElementsByClass("post-nav");
+}
+
+removeElementsByClass("scaryhidden");
+
+var yourElementp = document.getElementById('next');
+yourElementp.setAttribute('href', '?p=' + (p + 1));
+
+var yourElementp1 = document.getElementById('next1');
+yourElementp1.setAttribute('href', '?p=' + (p + 1));
+
+if (p == 1) {
+	removeElementsByClass("previous");
+}
+
+var yourElement = document.getElementById('previous');
+yourElement.setAttribute('href', '?p=' + (p - 1));

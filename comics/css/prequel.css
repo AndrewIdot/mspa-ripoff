@@ -121,7 +121,12 @@ body {
 
 .suf-widget a,
 .suf-widget a:visited {
-  color: var(--bg-sidepage-text-link);
+	color: var(--bg-sidepage-text-link);
+	text-decoration: none;
+}
+
+.suf-widget a:hover {
+	text-decoration: underline;
 }
 
 h1.posttitle a, 
@@ -144,7 +149,6 @@ h1.posttitle a:hover,
 h2.posttitle a:hover {
 	color: var(--bg-mainpage-text-link);
 }
-
 
 h1.posttitle, h2.posttitle {
 	color: #000;
@@ -279,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
 .crappy-blue-link a {
 	font: bold 38px/1.2 monospace, sans-serif;
 	color: var(--bg-mainpage-bluelink);
-	text-decoration: underline;
+	text-decoration: underline !important;
 }
 
 .crappy-blue-link {
@@ -309,6 +313,14 @@ h1, h2, h3, h4, h5, h6 {
 	float: right;
 }
 
+.mainpage a {
+	text-decoration: none;
+}
+
+.mainpage a:hover {
+	text-decoration: underline;
+}
+
 .post-nav {
 	clear: both;
 	padding: 5px;
@@ -320,6 +332,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 	line-height: 18px;
 	font-size: 12px;
+	min-width: 620px;
 }
 
 table, tbody, tfoot, thead, tr, th, td {
