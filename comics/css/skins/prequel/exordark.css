@@ -33,6 +33,6 @@
 
 @media (max-width: 480px) { 
 	.loltitleimage {
-		content: url('../images/prequel/website/PrequelTitleExorMobile.png');
+		content: url('../../../images/prequel/website/PrequelTitleExorMobile.png');
 	}
 }
