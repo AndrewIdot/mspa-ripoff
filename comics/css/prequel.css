@@ -119,6 +119,7 @@ body {
 	border-radius: 5px;
 }
 
+.suf-widget a,
 .suf-widget a:visited {
   color: var(--bg-sidepage-text-link);
 }
@@ -401,5 +402,9 @@ table, tbody, tfoot, thead, tr, th, td {
 	
 	.container2 {
 		padding-right: 0px;
+	}
+	
+	.loltitleimage {
+		content: url('../images/prequel/website/PrequelTitleMobile.png');
 	}
 }

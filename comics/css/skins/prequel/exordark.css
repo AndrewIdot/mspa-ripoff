@@ -30,3 +30,9 @@
 .loltitleimage {
 	content: url('../../../images/prequel/website/PrequelTitleExor.gif');
 }
+
+@media (max-width: 480px) { 
+	.loltitleimage {
+		content: url('../images/prequel/website/PrequelTitleExorMobile.png');
+	}
+}
