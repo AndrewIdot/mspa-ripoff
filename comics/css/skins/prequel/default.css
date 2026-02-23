@@ -1,0 +1,24 @@
+:root {
+	--bg-one: #15181f;
+	--bg-two: #3F4B63;
+	
+	--bg-mainpage: #F9F9F9;
+	--bg-mainpage-title: #000000;
+	--bg-mainpage-border: #c0c0c0;
+	--bg-mainpage-text: #000000;
+	--bg-mainpage-text-link: #787878;
+	--bg-mainpage-bluelink: #0000FF;
+	
+	--bg-sidepage: #ffffff;
+	--bg-sidepage-border: #c0c0c0;
+	--bg-sidepage-text: #666666;
+	--bg-sidepage-text-alt: #444;
+	--bg-sidepage-text-link: #787878;
+	
+	--bg-contribution-one: #B29C6E;
+	--bg-contribution-two: #B29C6E;
+	--bg-contribution-three: #EADCBF;
+	
+	--bg-credits-color: #000000;
+	--bg-credits-color-link: #787878;
+}

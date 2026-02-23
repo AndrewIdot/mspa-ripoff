@@ -41,3 +41,12 @@ if (p == 1) {
 const logocount = 9;
 const dumbbullshit = Math.floor(Math.random() * logocount) + 1;
 document.getElementById('header-container').style.backgroundImage = `url('images/prequel/website/header${dumbbullshit}.jpg')`;
+
+
+function skinningmydick(name) {
+	document.getElementById("skin").href = "css/skins/prequel/" + name + ".css";
+	localStorage.setItem("skin", name);
+}
+
+const saved = localStorage.getItem("skin");
+if (saved) skinningmydick(saved);

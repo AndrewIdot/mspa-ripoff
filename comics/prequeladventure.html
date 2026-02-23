@@ -4,6 +4,11 @@
 	<link rel="stylesheet" href="css/prequel.css">
 	<script type="text/javascript" src="js/prequel/jquery.js?ver=1.12.4"></script>
 	<script type="text/javascript" src="js/prequel/jquery-migrate.min.js?ver=1.4.1"></script>
+	<link id="skin" rel="stylesheet" href="skins/default.css">
+	<link id="skin" rel="stylesheet" href="skins/dark.css">
+	<link id="skin" rel="stylesheet" href="skins/exor.css">
+	<link id="skin" rel="stylesheet" href="skins/exordark.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 	
 <body>
@@ -11,7 +16,9 @@
 	
 		<div id="header-container" class="custom-header fix">
 			<header id="header" class="fix">
-				<h2 class="blogtitle center"><a href="https://www.prequeladventure.com"><img src="images/prequel/website/PrequelTitle2.gif" alt="PREQUEL"></a></h2>
+				<h2 class="blogtitle center"><a href="https://www.prequeladventure.com">
+					<img class="loltitleimage" src="images/prequel/website/PrequelTitle2.gif" alt="PREQUEL"></a>
+				</h2>
 			</header>
 		</div>
 	
@@ -550,7 +557,20 @@
 		<div class="sidebarlol"><div class="siderbarlol">
 			<aside id="text-2" class="dbx-box suf-widget widget_text"><h3 class="dbx-handle plain">Unofficial</h3>
 				<div class="dbx-content">
-					<div class="textwidget">You are currently reading off of <a href="../index.html"><b>REALLY SHITTY ADVENTURES</b></a>, which is worse, but restores Flash content. If you don't care about the Flash stuff too much, <a href="https://www.prequeladventure.com/2011/03/prequel-begin/"><b>go check out the official site instead!</b></a>
+					<div class="textwidget">You are currently reading off of <a href="../index.html"><b>REALLY SHITTY ADVENTURES</b></a>, which is worse, but restores Flash content and adds skins. If you don't care about the Flash stuff too much nor the skins, <a href="https://www.prequeladventure.com/2011/03/prequel-begin/"><b>go check out the official site instead!</b></a>
+					</div>
+				</div>
+			</aside>
+			<br>
+			<aside id="text-2" class="dbx-box suf-widget widget_text"><h3 class="dbx-handle plain">Skins</h3>
+				<div class="dbx-content">
+					<div class="textwidget">
+						<select onchange="skinningmydick(this.value)">
+							<option value="default">Default</option>
+							<option value="dark">Dark</option>
+							<option value="exor">Exordium</option>
+							<option value="exordark">Exordium (Dark)</option>
+						</select>
 					</div>
 				</div>
 			</aside>
@@ -561,7 +581,8 @@
 					- Any and all <b>[S]</b> pages now have their .swf files whenever possible.<br>
 					- Titles for each page link to their original on <a href="https://www.prequeladventure.com"><b>prequeladventure.com</b></a> (port leftover-turned-feature LOL).<br>
 					- A port of <a href="https://www.prequeladventure.com/2012/08/2200/"><b>–></b></a> is accessible on <a href="?p=4200"><b>page 4200</b></a> for now, just to see if porting the JavaScript stuff over would be easy (and it sort of is!).<br>
-					- Currently <a href="https://www.prequeladventure.com/this/shhsecrets/page1.html"><b>EXORDIUM</b></a> hasn't been ported.
+					- Currently <a href="https://www.prequeladventure.com/this/shhsecrets/page1.html"><b>EXORDIUM</b></a> hasn't been ported.<br>
+					- No side stories yet.
 					</div>
 				</div>
 			</aside>
@@ -574,7 +595,6 @@
 					</div>
 				</div>
 			</aside>
-			
 		</div></div>
 	
 		<footer>

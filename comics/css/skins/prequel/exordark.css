@@ -1,0 +1,32 @@
+:root {
+	--bg-one: #000000;
+	--bg-two: #192800;
+	
+	--bg-mainpage: #333333;
+	--bg-mainpage-title: #FFFFFF;
+	--bg-mainpage-border: #1A1A1A;
+	--bg-mainpage-text: #FFFFFF;
+	--bg-mainpage-text-link: #C0C0C0;
+	--bg-mainpage-bluelink: #0FB1D1;
+	
+	--bg-sidepage: #333333;
+	--bg-sidepage-border: #1A1A1A;
+	--bg-sidepage-text: #C0C0C0;
+	--bg-sidepage-text-alt: #888;
+	--bg-sidepage-text-link: #C0C0C0;
+	
+	--bg-contribution-one: #444444;
+	--bg-contribution-two: #444444;
+	--bg-contribution-three: #6A6A6A;
+
+	--bg-credits-color: #FFFFFF;
+	--bg-credits-color-link: #C0C0C0;
+}
+
+#header-container {
+	background-image: url('../../../images/prequel/website/header.png') !important;
+}
+
+.loltitleimage {
+	content: url('../../../images/prequel/website/PrequelTitleExor.gif');
+}

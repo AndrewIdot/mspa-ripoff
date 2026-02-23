@@ -1,3 +1,32 @@
+:root {
+	--bg-one: #15181f;
+	--bg-two: #3F4B63;
+	
+	--bg-mainpage: #F9F9F9;
+	--bg-mainpage-title: #000000;
+	--bg-mainpage-border: #c0c0c0;
+	--bg-mainpage-text: #000000;
+	--bg-mainpage-text-link: #787878;
+	--bg-mainpage-bluelink: #0000FF;
+	
+	--bg-sidepage: #ffffff;
+	--bg-sidepage-border: #c0c0c0;
+	--bg-sidepage-text: #666666;
+	--bg-sidepage-text-alt: #444;
+	--bg-sidepage-text-link: #787878;
+	
+	--bg-contribution-one: #B29C6E;
+	--bg-contribution-two: #B29C6E;
+	--bg-contribution-three: #EADCBF;
+
+	--bg-credits-color: #000000;
+	--bg-credits-color-link: #787878;
+}
+
+.scaryhidden {
+	display: none;
+}
+
 div {
 	margin: 0;
 	padding: 0;
@@ -7,7 +36,7 @@ div {
 }
 
 body {
-	background-color: #15181f;
+	background-color: var(--bg-one);
 	color: #000000;
 	font-style: normal;
 	font-variant: normal;
@@ -22,13 +51,14 @@ body {
 }
 
 .mainpage {
-	border: 1px solid #c0c0c0;
-	background: rgb(249,249,249);
+	border: 1px solid var(--bg-mainpage-border);
+	background: var(--bg-mainpage);
 	padding: 25px 15px 1em 15px;
 	overflow: hidden;
 	margin-bottom: 10px;
 	display: block;
 	border-radius: 5px;
+	color: var(--bg-mainpage-text);
 }
 
 .sidebarlol {
@@ -48,16 +78,16 @@ body {
 	position: relative;
 	display: block;
 	width: 260px;
-	color: #666666;
+	color: var(--bg-sidepage-text);
 	line-height: 160%;
 }
 
 .suf-widget h3, .suf-widget h3 a, .suf-widget h3 a:visited {
-	color: #444;
+	color: var(--bg-sidepage-text-alt);
 }
 .suf-widget h3 {
 	font: bold 100%/100% Arial, Helvetica, sans-serif;
-	color: #444;
+	color: var(--bg-sidepage-text-alt);
 }
 .dbx-handle {
 	border-top-left-radius: 3px;
@@ -67,7 +97,7 @@ body {
 	position: relative;
 	margin: 0;
 	padding: 8px 24px 7px 10px;
-	border-bottom: 1px dotted #c0c0c0;
+	border-bottom: 1px dotted var(--bg-sidepage-border);
 }
 .dbx-group, .dbx-box, .dbx-handle {
 	position: relative;
@@ -84,17 +114,20 @@ body {
 }
 
 .suf-widget {
-	background: #fff;
-	border: 1px solid #c0c0c0;
+	background: var(--bg-sidepage);
+	border: 1px solid var(--bg-sidepage-border);
 	border-radius: 5px;
 }
 
 .suf-widget a:visited {
-  color: #787878;
+  color: var(--bg-sidepage-text-link);
 }
 
-h1.posttitle a, h1.posttitle a:visited, h2.posttitle a, h2.posttitle a:visited {
-	color: #000;
+h1.posttitle a, 
+h1.posttitle a:visited, 
+h2.posttitle a, 
+h2.posttitle a:visited {
+	color: var(--bg-mainpage-title);
 	text-decoration: none;
 	margin: 0;
 	padding: 0;
@@ -105,6 +138,12 @@ h1.posttitle a, h1.posttitle a:visited, h2.posttitle a, h2.posttitle a:visited {
 	font-variant: normal;
 	font-size: 24px;
 }
+
+h1.posttitle a:hover,
+h2.posttitle a:hover {
+	color: var(--bg-mainpage-text-link);
+}
+
 
 h1.posttitle, h2.posttitle {
 	color: #000;
@@ -190,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	display: block;
 	background: #fff;
-	border: 1px solid #c0c0c0;
+	border: 1px solid var(--bg-sidepage-border);
 	color: #666666;
 	line-height: 160%;
 }
@@ -200,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 	max-width: 1140px;
 	min-width: 600px;
 	margin: 20px auto;
-	background: rgb(63,75,99);
+	background: var(--bg-two);
 	border-radius: 7px;
 	padding: 10px;
 	position: relative;
@@ -236,14 +275,26 @@ h1, h2, h3, h4, h5, h6 {
 	outline: 0;
 }
 
-.crappy-blue-link {
-  font: bold 38px/1.2 monospace, sans-serif;
+.crappy-blue-link a {
+	font: bold 38px/1.2 monospace, sans-serif;
+	color: var(--bg-mainpage-bluelink);
+	text-decoration: underline;
 }
 
-.cred a:link /* ce crezi coaie */
+.crappy-blue-link {
+	font: bold 38px/1.2 monospace, sans-serif;
+}
+
+.cred a,
+.cred /* ce crezi coaie */
 {
-	color: black;
+	color: var(--bg-credits-color);
 	text-decoration: none;
+}
+
+.cred a:hover {
+	color: var(--bg-credits-color-link);
+	text-decoration: underline;
 }
 
 .previous {
@@ -262,8 +313,8 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 5px;
 	margin: 0 0 15px 0;
 	font-size: 100%;
-	background-color: #ffffff;
-	border: 1px solid #c0c0c0;
+	background-color: var(--bg-sidepage);
+	border: 1px solid var(--bg-sidepage-border);
 	border-radius: 5px;
 	display: block;
 	line-height: 18px;
@@ -313,4 +364,42 @@ table, tbody, tfoot, thead, tr, th, td {
 
 .textwidget a img {
 	max-width: 240px;
+}
+
+.contribution {
+	background-color: var(--bg-contribution-one) !important;
+}
+
+.contribution tr:nth-of-type(1) td {
+	background-color: var(--bg-contribution-two) !important;
+}
+
+.contribution tr:nth-of-type(2) td {
+	background-color: var(--bg-contribution-three) !important;
+}
+
+@media (max-width: 480px) { 
+	.PAINANDTORTURE,
+	.sidebarlol,
+	.siderbarlol {
+		float: unset;
+		display: inline;
+	}
+	
+	.mainpage img {
+		max-width: 100%;
+	}
+	
+	.loltitleimage {
+		margin: auto;
+	}
+	
+	.awesometainer {
+		margin: 0;
+		min-width: unset;
+	}
+	
+	.container2 {
+		padding-right: 0px;
+	}
 }
