@@ -329,8 +329,8 @@ h1, h2, h3, h4, h5, h6 {
 footer {
 	position: absolute;
 	width: 98%;
-    bottom: 0;
-    left: 0;	
+	bottom: 0;
+	left: 0;	
 	font-size: 11px;
 	padding: 10px;
 }
@@ -365,7 +365,7 @@ footer {
 	display: block;
 	line-height: 18px;
 	font-size: 12px;
-	min-width: 620px;
+	min-width: 610px;
 }
 
 table, tbody, tfoot, thead, tr, th, td {
@@ -472,4 +472,9 @@ input {
 	.loltitleimage {
 		content: url('../images/prequel/website/PrequelTitleMobile.png');
 	}
+	
+  footer {
+  	position: unset;
+  	width: 94%;
+  }
 }
