@@ -42,6 +42,15 @@ if (p < 0) {
 
 removeElementsByClass("scaryhidden");
 
+
+const page = document.querySelector('.mainpage > div:not(.scaryhidden)');
+const postTitleEl = page?.querySelector('.posttitle');
+const postTitle = postTitleEl?.textContent?.trim();
+
+if (postTitle) {
+  document.title = `${postTitle} – PREQUEL (Unofficial)`;
+}
+
 var yourElementp = document.getElementById('next');
 yourElementp.setAttribute('href', '?p=' + (p + 1));
 
