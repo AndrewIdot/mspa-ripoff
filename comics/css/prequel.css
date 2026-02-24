@@ -6,8 +6,12 @@
 	--bg-mainpage-title: #000000;
 	--bg-mainpage-border: #c0c0c0;
 	--bg-mainpage-text: #000000;
-	--bg-mainpage-text-link: #787878;
+	--bg-mainpage-title-link: #787878;
 	--bg-mainpage-bluelink: #0000FF;
+	
+	--bg-mainpage-link: #0986E6;
+	--bg-mainpage-link-visited: #550B80;
+	--bg-mainpage-link-hover: #0FB1D1;
 	
 	--bg-sidepage: #ffffff;
 	--bg-sidepage-border: #c0c0c0;
@@ -48,6 +52,8 @@ body {
 
 .PAINANDTORTURE {
 	float: left;
+	min-width: 620px;
+	width: 100%;
 }
 
 .mainpage {
@@ -59,6 +65,18 @@ body {
 	display: block;
 	border-radius: 5px;
 	color: var(--bg-mainpage-text);
+}
+
+.mainpage a {
+	color: var(--bg-mainpage-link);
+}
+
+.mainpage a:visited {
+	color: var(--bg-mainpage-link-visited);
+}
+
+.mainpage a:hover {
+	color: var(--bg-mainpage-link-hover);
 }
 
 .sidebarlol {
@@ -147,7 +165,7 @@ h2.posttitle a:visited {
 
 h1.posttitle a:hover,
 h2.posttitle a:hover {
-	color: var(--bg-mainpage-text-link);
+	color: var(--bg-mainpage-title-link);
 }
 
 h1.posttitle, h2.posttitle {
@@ -282,7 +300,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .crappy-blue-link a {
 	font: bold 38px/1.2 monospace, sans-serif;
-	color: var(--bg-mainpage-bluelink);
+	color: var(--bg-mainpage-bluelink) !important;
 	text-decoration: underline !important;
 }
 
@@ -392,6 +410,19 @@ table, tbody, tfoot, thead, tr, th, td {
 	background-color: var(--bg-contribution-three) !important;
 }
 
+.button, .button:visited, input[type="submit"], input[type="button"] {
+	background: #a5a7aa url(../images/prequel/website/bg-gray-1.png) repeat-x top left;
+	color: #444;
+}
+
+input {
+	border: 1px solid #ccc;
+	border-right-color: #aaa;
+	border-bottom-color: #aaa;
+	line-height: 1.5em;
+	border-radius: 20px;
+}
+
 @media (max-width: 480px) { 
 	.PAINANDTORTURE,
 	.sidebarlol,
@@ -402,6 +433,11 @@ table, tbody, tfoot, thead, tr, th, td {
 	
 	.mainpage img {
 		max-width: 100%;
+	}
+	
+	.post-nav {
+		max-width: 100%;
+		min-width: unset;
 	}
 	
 	.loltitleimage {

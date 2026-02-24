@@ -6,8 +6,12 @@
 	--bg-mainpage-title: #000000;
 	--bg-mainpage-border: #c0c0c0;
 	--bg-mainpage-text: #000000;
-	--bg-mainpage-text-link: #787878;
+	--bg-mainpage-title-link: #787878;
 	--bg-mainpage-bluelink: #0FB1D1;
+	
+	--bg-mainpage-link: #0986E6;
+	--bg-mainpage-link-visited: #550B80;
+	--bg-mainpage-link-hover: #0FB1D1;
 	
 	--bg-sidepage: #ffffff;
 	--bg-sidepage-border: #c0c0c0;
