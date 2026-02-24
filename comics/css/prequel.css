@@ -68,6 +68,10 @@ body {
 	color: var(--bg-mainpage-text);
 }
 
+.mainpage::after {
+	padding-bottom: 50px;
+}
+
 .mainpage a {
 	color: var(--bg-mainpage-link);
 }
@@ -317,13 +321,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cred {
+	padding: 0;
+	clear: both;
+	height: auto;
+	overflow: hidden;
 	border-top: 1px solid #c0c0c0;
 	padding-top: 10px;
+}
+
+.cred td {
+	width: 33%;
+}
+
+.cred table {
+	width: 100%;
 }
 
 .cred a:hover {
 	color: var(--bg-credits-color-link);
 	text-decoration: underline;
+}
+
+.cred td.cred-left {
+	text-align: left;
+}
+
+.cred td.cred-center {
+	text-align: center;
+}
+
+.cred td.cred-right {
+	text-align: right;
 }
 
 footer {
@@ -369,7 +397,7 @@ footer {
 }
 
 table, tbody, tfoot, thead, tr, th, td {
-  border-radius: 15px;
+	border-radius: 15px;
 }
 
 .post-nav table {
@@ -473,8 +501,16 @@ input {
 		content: url('../images/prequel/website/PrequelTitleMobile.png');
 	}
 	
-  footer {
-  	position: unset;
-  	width: 94%;
-  }
+	footer {
+		position: unset;
+		width: 95%;
+	}
+	
+	.cred td {
+		width: 50%;
+	}
+
+	.cred td.cred-center {
+		display: none;
+	}
 }
