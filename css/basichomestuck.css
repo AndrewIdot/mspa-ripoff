@@ -261,8 +261,10 @@ body {
 		max-width: 90%;
 	}
 	
-	.boobiescoop {
-		display: none;
+	.boobiescoop img {
+		width: 100%;
+		content: url('../comics/images/bannermsparipoff-mobile.png');
+		padding-top: 4px;
 	}
 	
 	.pesterlogimg img {
