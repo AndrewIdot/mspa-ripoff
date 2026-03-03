@@ -1,4 +1,7 @@
 :root {
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
+	
 	--bg-one: #15181f;
 	--bg-two: #3F4B63;
 	

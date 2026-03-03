@@ -1,0 +1,74 @@
+:root {
+	--bg-two: #262626;
+}
+
+body {
+	background-image: url('../images/sovstuck/website/BACKGROUND.png')
+}
+
+.pagename {
+	width: 650px;
+	max-width: 950px;
+}
+
+.pagecontent {
+	width: 650px;
+	max-width: 950px;
+}
+
+.superbonercontainer {
+	width: 600px;
+	max-width: 900px;
+}
+
+a {
+	color: #375aff;
+}
+a:active {
+	color: #002bf2;
+}
+a:visited {
+	color: #0022bf;
+}
+
+.pagename img {
+	width: 650px;
+	max-width: 950px;
+}
+
+.awesometainer {
+	padding-top: 0px;
+	padding-bottom: 25px;
+	border: 5px solid #191919;
+}
+
+.topnav {
+	background-color: #000000;
+	border-left: 5px solid #191919;
+	border-right: 5px solid #191919;
+}
+
+.topnav a,
+.topnav a:visited,
+.topnav a:hover { 
+	color: #375aff;
+}
+
+@media (max-width: 480px) { 
+	.pagename,
+	.pagename img,
+	.pagecontent {
+		max-width: 100%;
+	}
+	
+	.awesometainer,
+	.topnav {
+		border-left: 0px;
+		border-right: 0px;
+		padding-bottom: 0px;
+	}	
+	
+	.superbonercontainer {
+		max-width: 90%;
+	}
+}

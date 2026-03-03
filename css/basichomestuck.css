@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'ass';
-    src: url("../assets/fonts/CourierNew1.ttf");
+    src: url("../assets/fonts/courier-normal.ttf");
 }
 
 @font-face {
@@ -14,11 +14,13 @@
 }
 
 :root {
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
+	
 	--bg-one: #eeeeee;
 	--bg-two: #c6c6c6;
 	--bg-three: #535353;
-	font-family: "cour", monospace;
-    --font-serif:"Adobe Garamond Pro", serif;
+	font-family:  "ass", courier, monospace;
     --color-john:#0715cd;
     --color-rose:#b536da;
     --color-dave:#e00707;
@@ -136,6 +138,7 @@
 
 body {
 	background-color: var(--bg-three);
+	margin: 0px;
 }
 
 .awesometainer {
@@ -143,6 +146,8 @@ body {
 	max-width: 950px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 7px;
+	padding-bottom: 7px;
 }
 
 .pagename {
@@ -161,6 +166,7 @@ body {
 	max-width: 650px;
 	margin-left: auto;
 	margin-right: auto;
+	font-weight: bold;
 }
 
 .superbonercontainer {
@@ -176,7 +182,7 @@ body {
 }
 
 .pagename font {
-	font-weight: bold; 
+	font-weight: bold;
 	font-family: "ass", courier, monospace; 
 	color:#000000;
 	line-height: 1;
@@ -187,7 +193,7 @@ body {
 }
 
 .pagecontent font {
-	font-style: normal;
+	font-weight: normal;
 	font-family: "verd", "Verdana", sans-serif;
 	text-align: left;
 }
@@ -221,14 +227,23 @@ body {
 
 .topnav {
 	width: 950px;
-	max-height: 17px;
-	font-size: 16px;
+	max-height: 20px;
+	line-height: 20px;
+	font-size: 10px;
 	font-family: "Arial", sans-serif;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 15px;
 	white-space: nowrap;
 	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	align-items: center;
+	padding-bottom: 3px;
+}
+
+.topnav img {
+	vertical-align: sub;
 }
 
 .topnav a,
@@ -247,13 +262,15 @@ body {
 		width: 100%
 	}
 	
+	.awesometainer {
+		padding: 0px;
+	}
+	
 	.topnav {
 		width: 100%
 	}
 	
-	.pagename img,
-	.pagename embed,
-	.pagename ruffle-embed {
+	.pagename img {
 		width: 100%;
 	}
 

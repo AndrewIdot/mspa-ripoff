@@ -1,0 +1,9 @@
+.boobiescoop img {
+	content: url('../images/bannermspfabutworse.png');
+}
+
+@media (max-width: 480px) { 
+	.boobiescoop img {
+		content: url('../images/bannermspfabutworse-mobile.png');
+	}
+}
