@@ -29,3 +29,11 @@
 	
 	--generic-textcolor: #FFFFFF;
 }
+
+.clickykatt {
+	background-image: url('../../../images/prequel/website/clickykattAllDark.gif') !important;
+}
+
+.thelettert {
+	content: url('../../../images/prequel/TheLetterTDark.png');
+}

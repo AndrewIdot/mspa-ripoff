@@ -38,6 +38,14 @@
 	content: url('../../../images/prequel/website/PrequelTitleExor.gif');
 }
 
+.clickykatt {
+	background-image: url('../../../images/prequel/website/clickykattAllDark.gif') !important;
+}
+
+.thelettert {
+	content: url('../../../images/prequel/TheLetterTDark.png');
+}
+
 @media (max-width: 480px) { 
 	.loltitleimage {
 		content: url('../../../images/prequel/website/PrequelTitleExorMobile.png');
