@@ -13,6 +13,11 @@
     src: url("../assets/fonts/Verdana.ttf");
 }
 
+@font-face {
+    font-family: 'comicsans';
+    src: url("../assets/fonts/funnysans.ttf");
+}
+
 :root {
 	image-rendering: pixelated;
 	image-rendering: -moz-crisp-edges;
@@ -54,6 +59,7 @@
 	--color-angela: #926EF4;
 	--color-jellee: #926EF4;
 	--color-drewee: #9B48B5;
+	--color-allee: #5E4D91;
 	
 	/* sovstuck */
 	
@@ -257,10 +263,27 @@ body {
 	text-decoration: underline;
 }
 
+.skinner {
+	background-color: var(--bg-one);
+	max-width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.skincontainer {
+	max-width: 600px;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 @media (max-width: 480px) { 
 	.awesometainer,
 	.pagename,
-	.pagecontent {
+	.pagecontent,
+	.skinner	{
 		max-width: unset;
 		margin: unset;
 		width: 100%
@@ -277,8 +300,14 @@ body {
 	.pagename img {
 		width: 100%;
 	}
+	
+	.pagename iframe {
+		max-width: 100%;
+		height: 100%;
+	}
 
-	.superbonercontainer {
+	.superbonercontainer,
+	.skincontainer {
 		max-width: 90%;
 	}
 	

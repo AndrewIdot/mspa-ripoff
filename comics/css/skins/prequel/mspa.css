@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'cour';
+    src: url("../../../../assets/fonts/CourierNew.ttf");
+}
+
+@font-face {
+    font-family: 'ass';
+    src: url("../../../../assets/fonts/courier-normal.ttf");
+}
+
+@font-face {
+    font-family: 'verd';
+    src: url("../../../../assets/fonts/Verdana.ttf");
+}
+
+:root {
+	--bg-one: #535353;
+	--bg-two: #c6c6c6;
+	
+	--bg-mainpage: #eeeeee;
+	--bg-mainpage-title: #000000;
+	--bg-mainpage-border: #c0c0c0;
+	--bg-mainpage-text: #000000;
+	--bg-mainpage-title-link: #787878;
+	--bg-mainpage-bluelink: #0000FF;
+	
+	--bg-mainpage-link: #0986E6;
+	--bg-mainpage-link-visited: #550B80;
+	--bg-mainpage-link-hover: #0FB1D1;
+	
+	--bg-sidepage: #ffffff;
+	--bg-sidepage-border: #c0c0c0;
+	--bg-sidepage-text: #666666;
+	--bg-sidepage-text-alt: #444;
+	--bg-sidepage-text-link: #787878;
+	
+	--bg-contribution-one: #FFFF00;
+	--bg-contribution-two: #FF9900;
+	--bg-contribution-three: #000000;
+	--bg-contribution-text: #FFFFFF;
+	
+	--bg-credits-color: #000000;
+	--bg-credits-color-link: #787878;
+	
+	--generic-textcolor: #333;
+}
+
+div,
+table,
+tr,
+td,
+nav,
+.suf-widget h3 {
+	border: 0px !important;	
+	border-radius: 0px !important;
+	font-family: "cour";
+}
+
+.posttitle {
+	text-align: center;
+}
+
+.crappy-blue-link,
+.crappy-blue-link a {
+	font-family: "verd" !important;
+	font-weight: normal !important;
+	font-size: 24px;
+}

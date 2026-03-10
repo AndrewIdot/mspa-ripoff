@@ -1,0 +1,37 @@
+:root {
+	--bg-one: #333333;
+	--bg-two: #1A1A1A;
+	--bg-three: #000000;
+    --color-john:#3642C4;
+	--color-signless:#696969; /* hehe */
+    --color-rustblood:#8E293A;
+    --color-mutantblood:#DD0000;
+	--color-blueblood:#116691;
+    --color-indigoblood:#141468;
+    --color-purpleblood:#653DAF;
+    --color-violetblood:#990C99;
+    --color-fuschiablood:#B71267;
+    --color-cherub:#0b4100;
+    --color-cherub-red:red;
+    --color-cherub-green:#2ed73a;
+    --color-caliborn:#323232;
+	--color-calliope:#929292;
+	
+	--bg-mainpage-link: #0986E6;
+	--bg-mainpage-link-visited: #852DBC;
+}
+
+font,
+.textttt,
+.skincontainer,
+.footer {
+	color: white !important;
+}
+
+a {
+	color: var(--bg-mainpage-link);
+}
+
+a:visited {
+	color: var(--bg-mainpage-link-visited);
+}

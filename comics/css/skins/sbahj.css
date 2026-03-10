@@ -1,0 +1,23 @@
+:root {
+	--bg-one: #F400EC;
+	--bg-two: #0707EC;
+	--bg-three: #0707EC;
+	--bg-mainpage-link: #FFFF00;
+	
+	font-family: "comicsans" !important;
+}
+
+font,
+.textttt,
+.skincontainer,
+.pesterlogtext,
+a {
+	font-family: "comicsans" !important;
+	font-weight: normal !important;
+	/*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+	background-color: #00FFFF;
+}
+
+a {
+	color: var(--bg-mainpage-link) !important;
+}
