@@ -30,19 +30,19 @@
     --color-dirk:#f2a400;
     --color-autoresponder:#e00707;
     --color-roxy:#ff6ff2;
-	--color-karkat:#626262;
-    --color-aradia-damara:#a10000;
-    --color-tavros-rufioh:#a16000;
-    --color-sollux-mituna:#a1a100;
-    --color-nepeta-meulin:#416600;
-    --color-kanaya-porrim:#008141;
-    --color-terezi-latula:#008282;
-    --color-vriska-aranea:#005682;
-    --color-equius-horuss-aradiabot:#000056;
-    --color-gamzee-kurloz:#2b0057;
-    --color-eridan-cronus:#6a006a;
-    --color-feferi-meenah:#77003c;
-    --color-kankri:red;
+	--color-signless:#626262;
+    --color-rustblood:#a10000;
+    --color-bronzeblood:#a16000;
+    --color-goldblood:#a1a100;
+    --color-oliveblood:#416600;
+    --color-jadeblood:#008141;
+    --color-tealblood:#008282;
+    --color-blueblood:#005682;
+    --color-indigoblood:#000056;
+    --color-purpleblood:#2b0057;
+    --color-violetblood:#6a006a;
+    --color-fuschiablood:#77003c;
+    --color-mutantblood:red;
     --color-cherub:#0b4100;
     --color-cherub-red:red;
     --color-cherub-green:#2ed73a;
@@ -58,7 +58,6 @@
 	/* sovstuck */
 	
 	--color-retris: #009119;
-	--color-tejuri: #a1a100;
 	
 	/*
 	
