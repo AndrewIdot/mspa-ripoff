@@ -141,7 +141,8 @@
 }
 
 .boobiescoop {
-	max-width: 950px; 
+	max-width: 950px;
+	width: auto;
 	margin-left: auto; 
 	margin-right: auto;	
 }

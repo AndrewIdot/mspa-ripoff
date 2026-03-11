@@ -28,6 +28,10 @@ font,
 	color: white !important;
 }
 
+.pesterlogtext {
+	color: white;
+}
+
 a {
 	color: var(--bg-mainpage-link);
 }

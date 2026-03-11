@@ -3,7 +3,9 @@
 }
 
 body {
-	background-image: url('../images/sovstuck/website/BACKGROUND.png')
+	background-color: black;
+	background-image: url('../images/sovstuck/website/BACKGROUND.png');
+	background-repeat: repeat-y;
 }
 
 .pagename {
@@ -55,6 +57,10 @@ a:visited {
 }
 
 @media (max-width: 480px) { 
+	body {
+		background-size: contain;
+	}
+
 	.pagename,
 	.pagename img,
 	.pagecontent {
